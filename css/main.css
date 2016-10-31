@@ -21,10 +21,7 @@ body {
 
 img {
   display: block;
-  float: right;
-  width: 300px;
-  margin-left: 1em;
-  margin-bottom: 1em;
+  width: 100%;
 }
 
 .wrapper {
@@ -98,4 +95,27 @@ main > p:first-child::first-letter {
   margin-right: 6px;
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
+}
+
+figure img {
+  float: right;
+  width: 300px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+figure {
+
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
+}
+
+blockquote {
+  float: left;
+  width: 300px;
+  font-size: 1.5rem;
+  color: #666;
 }
