@@ -21,7 +21,10 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  float: right;
+  width: 300px;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 
 .wrapper {
@@ -86,9 +89,6 @@ footer {
  ##########################################################
 */
 
-img {
-  float: right;
-  width: 300px;
-  margin-left: 1em;
-  margin-bottom: 1em;
+main > p::first-letter {
+  font-weight: bold;
 }
