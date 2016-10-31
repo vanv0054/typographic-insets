@@ -86,4 +86,9 @@ footer {
  ##########################################################
 */
 
-/* Write your CSS here */
+img {
+  float: right;
+  width: 300px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
