@@ -103,13 +103,14 @@ figure img {
   float: right;
   width: 300px;
   border-top: 3px solid #333;
+  padding: 6px;
 }
 
 figure {
   float: right;
   width: 300px;
-  margin-top: -20px;
-  margin-left: -10px;
+  margin-right: -50px;
+  margin-left: 5px;
 }
 
 figcaption {
