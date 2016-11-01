@@ -108,8 +108,7 @@ figure img {
 figure {
   float: right;
   width: 300px;
-  margin-right: 1em;
-  margin-left: 1em;
+  margin: 0 6px;
 }
 
 figcaption {
