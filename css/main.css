@@ -101,15 +101,14 @@ main > p:first-child::first-letter {
 figure img {
   float: right;
   width: 300px;
-  margin-left: 1em;
-  margin-bottom: 1em;
-  vertical-align: bottom;
+  border-top: 3px solid #333;
 }
 
 figure {
   float: right;
   width: 300px;
-
+  margin-right: -100px;
+  margin-left: .5em;
 }
 
 figcaption {
@@ -125,4 +124,5 @@ blockquote {
   color: #666;
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
+  margin-left: -100px;
 }
